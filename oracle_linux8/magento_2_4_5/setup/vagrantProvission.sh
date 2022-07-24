@@ -15,6 +15,12 @@
 # Intall elasticsearch 7.17.5
 . /var/ssh/setup/tools/elasticsearch.sh
 
+# add composer 2.2
+. /var/ssh/setup/tools/composer.sh
+
+# setup phpmyadmin
+. /var/ssh/setup/tools/phpmyadmin.sh
+
 # Set custom server configurations
 . /var/ssh/setup/tools/custom-server-configuration.sh
 
